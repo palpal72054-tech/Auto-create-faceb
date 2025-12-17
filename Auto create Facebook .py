@@ -532,17 +532,7 @@ async def sub():
         main()
       else:
         os.system("clear" if os.name == "posix" else "cls")
-        print(f"\t\033[1;32mFIRST GET APPROVAL\033[1;37m")
-        time.sleep(5)
-        clear()
-        print(f"{style} \033[1;32mYOU HAVE TO GET APPROVE FIRST BEFORE USING IT\n{stylee} \033[1;31mYOUR KEY IS NOT APPROVED\n\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{style} \033[1;32mYOUR KEY \033[1;37m: \033[1;32m{key1}\n\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        input(f"{style} \033[1;37mPRESS ENTER TO SEND KEY")
-        time.sleep(3.5)
-        tks=f"""HELLO SIPUN X PATI, DEAR ADMIN, PLEASE APPROVE MY KEY TO PREMIUM THANKS.\nYOUR KEY : {key1}"""
-        msg=urllib.parse.quote(tks)
-        os.system(f'am start -a android.intent.action.VIEW 'f'-d "https://wa.me/+9938207342?text={msg}"')
-        await sub()
-#▬▭▬▭▬▭▬▭[MAIN MENU]▬▭▬▭▬▭▬▭#
+        
 def main():
     clear();print(f'\033[1;37m[\033[1;32m01\033[1;37m]\033[1;32m START AUTO CREATE');print(f'\033[1;37m[\033[1;32m00\033[1;37m]\033[1;31m EXIT THIS PROGRAM');linex()
     auto_select=input(f'\033[1;37m[\033[1;32m?\033[1;37m]\033[1;32m CHOOSE \033[1;37m: \033[1;32m')
